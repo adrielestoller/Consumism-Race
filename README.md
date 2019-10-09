@@ -1,6 +1,6 @@
 # Consumism-Race
 
- Jogo Arcade onde durante a primeira guerra onde o o consumo toma controle das pessoas incentivado pela Pop Art, dois empresários rivais competem pela supremacia das comidas rápidas em partidas do jogo japonês Hasami Shogi.
+ Durante a primeira guerra, dois empresários rivais competem pela supremacia das comidas rápidas, aproveitando-se do extremo consumo das pessoas eles tem de batalhar em partidas do jogo japonês Hasami Shogi para definir o melhor.
  
 # Narrativa
 
