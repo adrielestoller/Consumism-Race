@@ -23,3 +23,8 @@
 - Perseguição de peças;
 - Aquisição territorial;
 
+# Notas de Atualização
+
+ - Versão 0.1
+    
+    - Menu inicial (Só programação).
