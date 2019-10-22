@@ -1,6 +1,6 @@
 # Consumism-Race
 
- Durante a primeira guerra, dois empresários rivais competem pela supremacia das comidas rápidas, aproveitando-se do extremo consumo das pessoas eles tem de batalhar em partidas do jogo japonês Hasami Shogi para definir o melhor.
+ Durante a primeira guerra, nos Estados Unidos, dois empresários rivais competem pela supremacia das comidas rápidas, aproveitando-se do extremo consumo das pessoas, eles tem de batalhar para definir o melhor.
  
 # Narrativa
 
