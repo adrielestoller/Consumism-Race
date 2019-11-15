@@ -28,3 +28,42 @@
  - Versão 0.1
     
     - Menu inicial (Só programação).
+    - Créditos (Só programação).
+    
+ - Versão 0.2
+ 
+    - Menu inicial completo.
+    - Créditos completo.
+    - Tabuleiro incompleto.
+    - Movimentação de personagens incompleto.
+    
+# Sobre o projeto
+
+ Este é um jogo realizado no âmbito da matéria de CJD (Cultura dos Jogos Digitais) da Escola Técnica Cícero Dias, que faz parte do Núcleo Avançado em Educação - NAVE e é uma parceria do Oi Futuro com a Secretaria de Estado de Educação de Pernambuco, por alunos do 1° ano do Ensino Médio/Técnico em projeto integrador entre o 1° ano A (Multimídia - Time 2) e o 1° ano c (Programação - Time 7).
+
+ - Integrantes:
+ 
+   - Multimídia:
+   
+     - Carla Gabrieli (gabrielicarla@nave.org.br);
+     - Dilson Kauê (dilson.silva@nave.org.br);
+     - Luann Leandro (luann.diniz@nave.org.br);
+     - Lucca Camarotti (lucca.tardieux@nave.org.br);
+     - Sabrina Nascimento (sabrinanascimento@nave.org.br);
+   
+   - Programação:
+   
+     - Adriel Estoller (adrielestoller@nave.org.br);
+     - Gabriel Aristóteles (gabriel.aristoteles@nave.org.br);
+     - Isys Maria (isysalmeida@nave.org.br);
+     - Pedro Henrique Fernandes (pedro.fernandes@nave.org.br);
+     - Rafael Martins (rafael.martins@nave.org.br);
+   
+# Agradecimentos
+
+ Nós, educandos, agradecemos imensamente a toda orientação e cuidado dos professores do ensino técnico: 
+ 
+    Anderson Silva;
+    Erick Simões;
+    Fernando Fernandes;
+    Oberdan Alves;
