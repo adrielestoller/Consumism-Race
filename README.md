@@ -63,7 +63,8 @@
 
  Nós, educandos, agradecemos imensamente a toda orientação e cuidado dos professores do ensino técnico: 
  
-    Anderson Silva;
-    Erick Simões;
-    Fernando Fernandes;
-    Oberdan Alves;
+   - Anderson Silva;
+   - [Erick Simões](http://github.com/ErickSimoes);
+   - Fernando Fernandes;
+   - [Joyce Souza](https://github.com/JoyceSouzs);
+   - [Oberdan Alves](https://github.com/oaajunior);
