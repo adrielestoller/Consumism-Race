@@ -12,3 +12,11 @@ c:\users\adriel estoller\documents\visual studio 2013\Projects\Consumism Race\Co
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe.config
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.exe
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csprojResolveAssemblyReference.cache
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Creditos.resources
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogo.resources
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Menu.resources
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Properties.Resources.resources
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.GenerateResource.Cache
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.pdb

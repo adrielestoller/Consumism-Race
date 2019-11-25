@@ -19,7 +19,7 @@ namespace Consumism_Race
 
         private void btn_jogar_Click(object sender, EventArgs e)
         {
-            Jogar jogar = new Jogar();
+            Jogo jogar = new Jogo();
 
             jogar.Show();
             this.Hide();
