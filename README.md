@@ -37,6 +37,10 @@
     - Tabuleiro incompleto.
     - Movimentação de personagens incompleto.
     
+ - Versão 0.2.1
+ 
+    - Correção de erro de movimentação inicial.
+    
 # Sobre o projeto
 
  Este é um jogo realizado no âmbito da matéria de CJD (Cultura dos Jogos Digitais) da Escola Técnica Cícero Dias, que faz parte do Núcleo Avançado em Educação - NAVE e é uma parceria do Oi Futuro com a Secretaria de Estado de Educação de Pernambuco, por alunos do 1° ano do Ensino Médio/Técnico em projeto integrador entre o 1° ano A (Multimídia - Time 2) e o 1° ano c (Programação - Time 7).
