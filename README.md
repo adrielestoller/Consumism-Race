@@ -71,4 +71,5 @@
    - [Erick Simões](http://github.com/ErickSimoes);
    - Fernando Fernandes;
    - [Joyce Souza](https://github.com/JoyceSouzs);
+   - [Lisandra Cruz](https://github.com/lisansouza)
    - [Oberdan Alves](https://github.com/oaajunior);
