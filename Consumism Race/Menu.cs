@@ -19,9 +19,9 @@ namespace Consumism_Race
 
         private void btn_jogar_Click(object sender, EventArgs e)
         {
-            Jogo jogar = new Jogo();
+            Narrativa narrativa = new Narrativa();
 
-            jogar.Show();
+            narrativa.Show();
             this.Hide();
         }
 
@@ -30,6 +30,12 @@ namespace Consumism_Race
             Creditos creditos = new Creditos();
 
             creditos.Show();
+            this.Hide();
+        }
+
+        private void Menu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(1);
         }
     }
 }

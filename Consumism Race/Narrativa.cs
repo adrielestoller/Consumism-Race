@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace Consumism_Race
 {
-    public partial class Creditos : Form
+    public partial class Narrativa : Form
     {
-        public Creditos()
+        public Narrativa()
         {
             InitializeComponent();
         }
 
-        private void Btn_casinha_Click(object sender, EventArgs e)
+        private void Btn_pular_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void Creditos_FormClosed(object sender, FormClosedEventArgs e)
+        private void Narrativa_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Menu menu = new Menu();
+            Jogar jogo = new Jogar();
 
-            menu.Show();
+            jogo.Show();
         }
     }
 }

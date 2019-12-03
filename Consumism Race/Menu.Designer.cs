@@ -68,6 +68,7 @@
             this.Name = "Menu";
             this.ShowIcon = false;
             this.Text = "Consumism Race";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Menu_FormClosed);
             this.ResumeLayout(false);
 
         }

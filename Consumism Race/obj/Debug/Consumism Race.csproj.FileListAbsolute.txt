@@ -14,9 +14,57 @@ C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumi
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csprojResolveAssemblyReference.cache
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Creditos.resources
-C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogo.resources
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Menu.resources
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Properties.Resources.resources
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.GenerateResource.Cache
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe
 C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.pdb
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogar.resources
+F:\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe.config
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.exe
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
+F:\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe
+F:\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.pdb
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csprojResolveAssemblyReference.cache
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Creditos.resources
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogar.resources
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Menu.resources
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Properties.Resources.resources
+F:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.GenerateResource.Cache
+E:\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe.config
+E:\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe
+E:\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.pdb
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csprojAssemblyReference.cache
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Creditos.resources
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogar.resources
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Menu.resources
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Properties.Resources.resources
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.GenerateResource.cache
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.CoreCompileInputs.cache
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.exe
+E:\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe.config
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.pdb
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csprojAssemblyReference.cache
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Creditos.resources
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogar.resources
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Menu.resources
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Properties.Resources.resources
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.exe
+C:\Users\aluno\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe.config
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.exe
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\bin\Debug\Consumism Race.pdb
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csprojAssemblyReference.cache
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Creditos.resources
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Jogar.resources
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Menu.resources
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Properties.Resources.resources
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.GenerateResource.cache
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.csproj.CoreCompileInputs.cache
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.exe
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
+C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Narrativa.resources
