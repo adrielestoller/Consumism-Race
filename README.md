@@ -27,19 +27,28 @@
 
  - Versão 0.1
     
-    - Menu inicial (Só programação).
-    - Créditos (Só programação).
+    - Menu inicial (Só programação);
+    - Créditos (Só programação);
     
  - Versão 0.2
  
-    - Menu inicial completo.
-    - Créditos completo.
-    - Tabuleiro incompleto.
-    - Movimentação de personagens incompleto.
+    - Menu inicial completo;
+    - Créditos completo;
+    - Tabuleiro incompleto;
+    - Movimentação de personagens incompleto;
     
  - Versão 0.2.1
  
-    - Correção de erro de movimentação inicial.
+    - Tabuleiro completo;
+    - Correção de erro de movimentação inicial;
+    - Correção de bugs;
+    
+ - Versão 1.0
+ 
+    - Movimentação completa;
+    - Adicionado narrativa;
+    - Cronômetro adicionado;
+    - Correção de bugs;
     
 # Sobre o projeto
 
@@ -73,3 +82,5 @@
    - [Joyce Souza](https://github.com/JoyceSouzs);
    - [Lisandra Cruz](https://github.com/lisansouza)
    - [Oberdan Alves](https://github.com/oaajunior);
+
+ A realização deste jogo é graças a todos! Bom trabalho e obrigado!
