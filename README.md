@@ -74,13 +74,14 @@
    
 # Agradecimentos
 
- Nós, educandos, agradecemos imensamente a toda orientação e cuidado dos professores do ensino técnico: 
+ Nós, educandos, agradecemos imensamente a toda orientação e cuidado dos professores do ensino técnico, como também aos nossos veteranos que nos apoiaram e nos ajudaram a conquistar o nosso objetivo. 
  
    - Anderson Silva;
    - [Erick Simões](http://github.com/ErickSimoes);
    - Fernando Fernandes;
    - [Joyce Souza](https://github.com/JoyceSouzs);
-   - [Lisandra Cruz](https://github.com/lisansouza)
+   - [Lisandra Cruz](https://github.com/lisansouza);
+   - [Maryelem Rodrigues](https://github.com/iMaary);
    - [Oberdan Alves](https://github.com/oaajunior);
 
- A realização deste jogo é graças a todos! Bom trabalho e obrigado!
+ A realização deste jogo é graças a todos, tantos os que trabalharam quanto aqueles que ensinaram e contribuíram! Bom trabalho e obrigado por todo apoio e ajuda!
