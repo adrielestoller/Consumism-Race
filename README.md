@@ -50,6 +50,12 @@
     - Cronômetro adicionado;
     - Correção de bugs;
     
+ - Versão 1.1
+ 
+    - Cursor em botões adicionado;
+    - Adicionado ao mover peças, uma animação;
+    - Correção de imagens (Botões: "jogar" e "créditos");
+    
 # Sobre o projeto
 
  Este é um jogo realizado no âmbito da matéria de CJD (Cultura dos Jogos Digitais) da Escola Técnica Cícero Dias, que faz parte do Núcleo Avançado em Educação - NAVE e é uma parceria do Oi Futuro com a Secretaria de Estado de Educação de Pernambuco, por alunos do 1° ano do Ensino Médio/Técnico em projeto integrador entre o 1° ano A (Multimídia - Time 2) e o 1° ano c (Programação - Time 7).
