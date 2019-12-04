@@ -12,17 +12,12 @@ namespace Consumism_Race
 {
     public partial class Jogar : Form
     {
-        PictureBox pecaLado;
-        PictureBox pecaOutroLado;
-        PictureBox pecaAnteriorAmarela;
-        PictureBox pecaAnteriorAzul;
-
         int vez = 0;
 
         Image vezBQ;
         Image vezMD;
-        Image pecaazul;
-        Image pecaamarela;
+        Image vezBQms;
+        Image vezMDms;
 
         TableLayoutPanelCellPosition posicaoAnterior;
 
@@ -34,8 +29,8 @@ namespace Consumism_Race
 
             vezBQ = Properties.Resources.VEZBURGUERQUEEN;
             vezMD = Properties.Resources.VEZDEMCDUCK;
-            pecaazul = Properties.Resources.peçadabqq;
-            pecaamarela = Properties.Resources.peçadomc;
+            vezBQms = Properties.Resources.MORTESUBITABQ;
+            vezMDms = Properties.Resources.MORTESUBITAMCD;
 
             timerCronômetro.Enabled = true;
         }
@@ -44,10 +39,11 @@ namespace Consumism_Race
         {
             PictureBox pecabq = (PictureBox)sender;
 
+            pecabq.Image = Properties.Resources.peçadabqcombrilho;
+
             posicaoAnterior = tabuleiro.GetPositionFromControl(pecabq);
             pecabq.DoDragDrop(pecabq, DragDropEffects.Move);
 
-            pecaAnteriorAzul = pecabq;
         }
 
         private void pecaMD_MouseDown(object sender, MouseEventArgs e)
@@ -56,8 +52,6 @@ namespace Consumism_Race
 
             posicaoAnterior = tabuleiro.GetPositionFromControl(pecamd);
             pecamd.DoDragDrop(pecamd, DragDropEffects.Move);
-
-            pecaAnteriorAmarela = pecamd;
         }
 
         private void tabuleiro_DragEnter(object sender, DragEventArgs e)
@@ -88,6 +82,140 @@ namespace Consumism_Race
                 {
                     MessageBox.Show("Não é seu turno! Espere Burguer Queen completar sua jogada!", "ATENÇÃO!");
                 }
+            }
+
+            if (min < 1)
+            {
+                if (peca.Name.StartsWith("pecabq") && vez % 2 == 0)
+                {
+
+                    while (ColumnIndex <= tabuleiro.ColumnCount)
+                    {
+                        if (loc.X < x)
+                        {
+                            break;
+                        }
+
+                        ColumnIndex++;
+                        x += tabuleiro.GetColumnWidths()[ColumnIndex];
+                     }
+
+                     while (RowIndex <= tabuleiro.RowCount)
+                     {
+                        if (loc.Y < y)
+                        {
+                            break;
+                        }
+
+                        RowIndex++;
+                        y += tabuleiro.GetRowHeights()[RowIndex];
+                    }
+
+                    if (posicaoAnterior.Row == RowIndex && posicaoAnterior.Column != ColumnIndex)
+                    {
+                        tabuleiro.Controls.Add(peca, ColumnIndex, RowIndex);
+
+                        if (vez % 2 == 0)
+                        {
+                            pic_fundo.Image = vezMDms;
+                        }
+                        else
+                        {
+                            pic_fundo.Image = vezBQms;
+                        }
+
+                        peca.Image = Properties.Resources.peçadabqq;
+
+                    }
+                    else if (posicaoAnterior.Column == ColumnIndex && posicaoAnterior.Row != RowIndex)
+                    {
+                        tabuleiro.Controls.Add(peca, ColumnIndex, RowIndex);
+    
+                        if (vez % 2 == 0)
+                        {
+                            pic_fundo.Image = vezMDms;
+                        }
+                        else
+                        {
+                            pic_fundo.Image = vezBQms;
+                        }
+
+                        peca.Image = Properties.Resources.peçadabqq;
+                    }
+                    else
+                    {
+                        e.Effect = DragDropEffects.None;
+                        vez--;
+                    }
+    
+                    vez++;
+                }
+                else if(peca.Name.StartsWith("pecamd") && vez % 2 != 0)
+                {
+
+                    while (ColumnIndex <= tabuleiro.ColumnCount)
+                    {
+                        if (loc.X < x)
+                        {
+                            break;
+                        }
+
+                        ColumnIndex++;
+                        x += tabuleiro.GetColumnWidths()[ColumnIndex];
+                    }
+    
+                    while (RowIndex <= tabuleiro.RowCount)
+                    {   
+                        if (loc.Y < y)
+                    {
+                        break;
+                    }
+
+                    RowIndex++;
+                    y += tabuleiro.GetRowHeights()[RowIndex];
+                }
+
+                if (posicaoAnterior.Row == RowIndex && posicaoAnterior.Column != ColumnIndex)
+                {
+                    tabuleiro.Controls.Add(peca, ColumnIndex, RowIndex);
+
+                    if (vez % 2 == 0)
+                    {
+                        pic_fundo.Image = vezMDms;
+                    }
+                    else
+                    {
+                        pic_fundo.Image = vezBQms;
+                    }
+
+                    peca.Image = Properties.Resources.peçadomc;
+
+                }
+                else if (posicaoAnterior.Column == ColumnIndex && posicaoAnterior.Row != RowIndex)
+                {
+                    tabuleiro.Controls.Add(peca, ColumnIndex, RowIndex);
+
+                    if (vez % 2 == 0)
+                    {
+                        pic_fundo.Image = vezMDms;
+                    }
+                    else
+                    {
+                        pic_fundo.Image = vezBQms;
+                    }
+
+                    peca.Image = Properties.Resources.peçadomc;
+
+                }
+                else
+                {
+                    e.Effect = DragDropEffects.None;
+                    vez--;
+                }
+
+                vez++;
+            }
+
             }
 
             if (peca.Name.StartsWith("pecabq") && vez % 2 == 0)
@@ -127,6 +255,9 @@ namespace Consumism_Race
                     {
                         pic_fundo.Image = vezBQ;
                     }
+
+                    peca.Image = Properties.Resources.peçadabqq;
+
                 }
                 else if (posicaoAnterior.Column == ColumnIndex && posicaoAnterior.Row != RowIndex)
                 {
@@ -140,6 +271,9 @@ namespace Consumism_Race
                     {
                         pic_fundo.Image = vezBQ;
                     }
+
+                    peca.Image = Properties.Resources.peçadabqq;
+
                 }
                 else
                 {
@@ -186,6 +320,9 @@ namespace Consumism_Race
                     {
                         pic_fundo.Image = vezBQ;
                     }
+
+                    peca.Image = Properties.Resources.peçadomc;
+
                 }
                 else if (posicaoAnterior.Column == ColumnIndex && posicaoAnterior.Row != RowIndex)
                 {
@@ -199,6 +336,9 @@ namespace Consumism_Race
                     {
                         pic_fundo.Image = vezBQ;
                     }
+
+                    peca.Image = Properties.Resources.peçadomc;
+
                 }
                 else
                 {
@@ -207,35 +347,6 @@ namespace Consumism_Race
                 }
 
                 vez++;
-            }
-
-            if (tabuleiro.GetControlFromPosition(peca.Location.X + 2, peca.Location.Y) as PictureBox != null)
-            {
-                pecaLado = tabuleiro.GetControlFromPosition(peca.Location.X + 2, peca.Location.Y) as PictureBox;
-
-                if (tabuleiro.GetControlFromPosition(peca.Location.X + 1, peca.Location.Y) as PictureBox != null)
-                {
-                    pecaOutroLado = tabuleiro.GetControlFromPosition(peca.Location.X + 1, peca.Location.Y) as PictureBox;
-
-                    if (pecaLado.Image == pecaamarela && pecaOutroLado.Image == pecaazul)
-                    {
-                        MessageBox.Show("aaa");
-                    }
-                }
-            }
-            else if (tabuleiro.GetControlFromPosition(peca.Location.X - 2, peca.Location.Y) as PictureBox != null)
-            {
-                pecaLado = tabuleiro.GetControlFromPosition(peca.Location.X - 2, peca.Location.Y) as PictureBox;
-
-                if (tabuleiro.GetControlFromPosition(peca.Location.X - 1, peca.Location.Y) as PictureBox != null)
-                {
-                    pecaOutroLado = tabuleiro.GetControlFromPosition(peca.Location.X - 1, peca.Location.Y) as PictureBox;
-
-                    if (pecaLado.Image == pecaamarela && pecaOutroLado.Image == pecaazul)
-                    {
-                        MessageBox.Show("aaa");
-                    }
-                }
             }
         }
 

@@ -36,6 +36,7 @@
             // btn_casinha
             // 
             this.btn_casinha.BackColor = System.Drawing.Color.Transparent;
+            this.btn_casinha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_casinha.Image = global::Consumism_Race.Properties.Resources.Casinha_TABULEIRO__little_;
             this.btn_casinha.Location = new System.Drawing.Point(12, 518);
             this.btn_casinha.Name = "btn_casinha";

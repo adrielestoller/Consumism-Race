@@ -37,11 +37,12 @@
             // btn_pular
             // 
             this.btn_pular.BackColor = System.Drawing.Color.Transparent;
+            this.btn_pular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pular.Image = global::Consumism_Race.Properties.Resources.botaodepularda_NARRATIVA__litlle_;
-            this.btn_pular.Location = new System.Drawing.Point(601, 457);
+            this.btn_pular.Location = new System.Drawing.Point(603, 456);
             this.btn_pular.Name = "btn_pular";
             this.btn_pular.Size = new System.Drawing.Size(107, 93);
-            this.btn_pular.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.btn_pular.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_pular.TabIndex = 1;
             this.btn_pular.TabStop = false;
             this.btn_pular.Click += new System.EventHandler(this.Btn_pular_Click);
@@ -71,7 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btn_pular)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_narrativa)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

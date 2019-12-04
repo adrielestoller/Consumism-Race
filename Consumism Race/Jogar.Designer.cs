@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jogar));
             this.timerCronômetro = new System.Windows.Forms.Timer(this.components);
+            this.labelCronômetro = new System.Windows.Forms.Label();
+            this.pictureBoxCronômetro = new System.Windows.Forms.PictureBox();
             this.tabuleiro = new System.Windows.Forms.TableLayoutPanel();
             this.pecamd1 = new System.Windows.Forms.PictureBox();
             this.pecabq1 = new System.Windows.Forms.PictureBox();
@@ -46,7 +47,6 @@
             this.pecabq13 = new System.Windows.Forms.PictureBox();
             this.pecabq14 = new System.Windows.Forms.PictureBox();
             this.pecabq15 = new System.Windows.Forms.PictureBox();
-            this.pecabq16 = new System.Windows.Forms.PictureBox();
             this.pecabq17 = new System.Windows.Forms.PictureBox();
             this.pecabq18 = new System.Windows.Forms.PictureBox();
             this.pecabq7 = new System.Windows.Forms.PictureBox();
@@ -66,12 +66,12 @@
             this.pecamd14 = new System.Windows.Forms.PictureBox();
             this.pecamd15 = new System.Windows.Forms.PictureBox();
             this.pecamd16 = new System.Windows.Forms.PictureBox();
-            this.pecamd17 = new System.Windows.Forms.PictureBox();
             this.pecamd18 = new System.Windows.Forms.PictureBox();
+            this.pecamd17 = new System.Windows.Forms.PictureBox();
+            this.pecabq16 = new System.Windows.Forms.PictureBox();
             this.pic_tabuleiro = new System.Windows.Forms.PictureBox();
             this.pic_fundo = new System.Windows.Forms.PictureBox();
-            this.labelCronômetro = new System.Windows.Forms.Label();
-            this.pictureBoxCronômetro = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCronômetro)).BeginInit();
             this.tabuleiro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq1)).BeginInit();
@@ -87,7 +87,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pecabq13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pecabq16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq7)).BeginInit();
@@ -107,17 +106,41 @@
             ((System.ComponentModel.ISupportInitialize)(this.pecamd14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pecamd17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pecamd17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pecabq16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_tabuleiro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_fundo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCronômetro)).BeginInit();
             this.SuspendLayout();
             // 
             // timerCronômetro
             // 
             this.timerCronômetro.Interval = 1000;
             this.timerCronômetro.Tick += new System.EventHandler(this.TimerCronômetro_Tick);
+            // 
+            // labelCronômetro
+            // 
+            this.labelCronômetro.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labelCronômetro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCronômetro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelCronômetro.ImageAlign = System.Drawing.ContentAlignment.TopRight;
+            this.labelCronômetro.Location = new System.Drawing.Point(379, 75);
+            this.labelCronômetro.Name = "labelCronômetro";
+            this.labelCronômetro.Size = new System.Drawing.Size(52, 30);
+            this.labelCronômetro.TabIndex = 6;
+            this.labelCronômetro.Text = "00:00";
+            this.labelCronômetro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxCronômetro
+            // 
+            this.pictureBoxCronômetro.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCronômetro.Image = global::Consumism_Race.Properties.Resources.cronometropronto;
+            this.pictureBoxCronômetro.Location = new System.Drawing.Point(346, 30);
+            this.pictureBoxCronômetro.Name = "pictureBoxCronômetro";
+            this.pictureBoxCronômetro.Size = new System.Drawing.Size(126, 86);
+            this.pictureBoxCronômetro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCronômetro.TabIndex = 5;
+            this.pictureBoxCronômetro.TabStop = false;
             // 
             // tabuleiro
             // 
@@ -171,6 +194,7 @@
             this.tabuleiro.Controls.Add(this.pecamd18, 8, 1);
             this.tabuleiro.Controls.Add(this.pecamd17, 7, 1);
             this.tabuleiro.Controls.Add(this.pecabq16, 6, 7);
+            this.tabuleiro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tabuleiro.Location = new System.Drawing.Point(260, 131);
             this.tabuleiro.Name = "tabuleiro";
             this.tabuleiro.RowCount = 9;
@@ -342,17 +366,6 @@
             this.pecabq15.TabIndex = 3;
             this.pecabq15.TabStop = false;
             this.pecabq15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaBQ_MouseDown);
-            // 
-            // pecabq16
-            // 
-            this.pecabq16.Image = global::Consumism_Race.Properties.Resources.peçadabqq;
-            this.pecabq16.Location = new System.Drawing.Point(181, 208);
-            this.pecabq16.Name = "pecabq16";
-            this.pecabq16.Size = new System.Drawing.Size(23, 22);
-            this.pecabq16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pecabq16.TabIndex = 3;
-            this.pecabq16.TabStop = false;
-            this.pecabq16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaBQ_MouseDown);
             // 
             // pecabq17
             // 
@@ -563,6 +576,17 @@
             this.pecamd16.TabStop = false;
             this.pecamd16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaMD_MouseDown);
             // 
+            // pecamd18
+            // 
+            this.pecamd18.Image = global::Consumism_Race.Properties.Resources.peçadomc;
+            this.pecamd18.Location = new System.Drawing.Point(241, 32);
+            this.pecamd18.Name = "pecamd18";
+            this.pecamd18.Size = new System.Drawing.Size(23, 23);
+            this.pecamd18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pecamd18.TabIndex = 3;
+            this.pecamd18.TabStop = false;
+            this.pecamd18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaMD_MouseDown);
+            // 
             // pecamd17
             // 
             this.pecamd17.Image = global::Consumism_Race.Properties.Resources.peçadomc;
@@ -574,16 +598,16 @@
             this.pecamd17.TabStop = false;
             this.pecamd17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaMD_MouseDown);
             // 
-            // pecamd18
+            // pecabq16
             // 
-            this.pecamd18.Image = global::Consumism_Race.Properties.Resources.peçadomc;
-            this.pecamd18.Location = new System.Drawing.Point(241, 32);
-            this.pecamd18.Name = "pecamd18";
-            this.pecamd18.Size = new System.Drawing.Size(23, 23);
-            this.pecamd18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pecamd18.TabIndex = 3;
-            this.pecamd18.TabStop = false;
-            this.pecamd18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaMD_MouseDown);
+            this.pecabq16.Image = global::Consumism_Race.Properties.Resources.peçadabqq;
+            this.pecabq16.Location = new System.Drawing.Point(181, 208);
+            this.pecabq16.Name = "pecabq16";
+            this.pecabq16.Size = new System.Drawing.Size(23, 22);
+            this.pecabq16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pecabq16.TabIndex = 3;
+            this.pecabq16.TabStop = false;
+            this.pecabq16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pecaBQ_MouseDown);
             // 
             // pic_tabuleiro
             // 
@@ -607,30 +631,6 @@
             this.pic_fundo.TabIndex = 0;
             this.pic_fundo.TabStop = false;
             // 
-            // labelCronômetro
-            // 
-            this.labelCronômetro.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.labelCronômetro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCronômetro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelCronômetro.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.labelCronômetro.Location = new System.Drawing.Point(379, 75);
-            this.labelCronômetro.Name = "labelCronômetro";
-            this.labelCronômetro.Size = new System.Drawing.Size(52, 30);
-            this.labelCronômetro.TabIndex = 6;
-            this.labelCronômetro.Text = "00:00";
-            this.labelCronômetro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBoxCronômetro
-            // 
-            this.pictureBoxCronômetro.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxCronômetro.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCronômetro.Image")));
-            this.pictureBoxCronômetro.Location = new System.Drawing.Point(346, 30);
-            this.pictureBoxCronômetro.Name = "pictureBoxCronômetro";
-            this.pictureBoxCronômetro.Size = new System.Drawing.Size(126, 86);
-            this.pictureBoxCronômetro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxCronômetro.TabIndex = 5;
-            this.pictureBoxCronômetro.TabStop = false;
-            // 
             // Jogar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -646,6 +646,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogar";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Jogar_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCronômetro)).EndInit();
             this.tabuleiro.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pecamd1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq1)).EndInit();
@@ -661,7 +662,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pecabq13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pecabq16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecabq7)).EndInit();
@@ -681,11 +681,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pecamd14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pecamd17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pecamd18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pecamd17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pecabq16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_tabuleiro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_fundo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCronômetro)).EndInit();
             this.ResumeLayout(false);
 
         }

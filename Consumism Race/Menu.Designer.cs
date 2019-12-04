@@ -29,31 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
-            this.btn_jogar = new System.Windows.Forms.Button();
-            this.btn_creditos = new System.Windows.Forms.Button();
+            this.btn_jogar = new System.Windows.Forms.PictureBox();
+            this.btn_creditos = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_jogar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_creditos)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_jogar
             // 
-            this.btn_jogar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_jogar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_jogar.BackgroundImage")));
-            this.btn_jogar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_jogar.Location = new System.Drawing.Point(323, 329);
+            this.btn_jogar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_jogar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_jogar.Image = global::Consumism_Race.Properties.Resources.botãodejogar;
+            this.btn_jogar.Location = new System.Drawing.Point(338, 329);
             this.btn_jogar.Name = "btn_jogar";
             this.btn_jogar.Size = new System.Drawing.Size(153, 75);
-            this.btn_jogar.TabIndex = 0;
-            this.btn_jogar.UseVisualStyleBackColor = false;
+            this.btn_jogar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btn_jogar.TabIndex = 2;
+            this.btn_jogar.TabStop = false;
             this.btn_jogar.Click += new System.EventHandler(this.btn_jogar_Click);
             // 
             // btn_creditos
             // 
-            this.btn_creditos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_creditos.BackgroundImage")));
-            this.btn_creditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_creditos.Location = new System.Drawing.Point(331, 410);
+            this.btn_creditos.BackColor = System.Drawing.Color.Transparent;
+            this.btn_creditos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_creditos.Image = global::Consumism_Race.Properties.Resources.botãodecŕeditos;
+            this.btn_creditos.Location = new System.Drawing.Point(346, 410);
             this.btn_creditos.Name = "btn_creditos";
             this.btn_creditos.Size = new System.Drawing.Size(136, 67);
-            this.btn_creditos.TabIndex = 1;
-            this.btn_creditos.UseVisualStyleBackColor = true;
+            this.btn_creditos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btn_creditos.TabIndex = 3;
+            this.btn_creditos.TabStop = false;
             this.btn_creditos.Click += new System.EventHandler(this.btn_creditos_Click);
             // 
             // Menu
@@ -69,14 +74,18 @@
             this.ShowIcon = false;
             this.Text = "Consumism Race";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Menu_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.btn_jogar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_creditos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btn_jogar;
-        private System.Windows.Forms.Button btn_creditos;
+        private System.Windows.Forms.PictureBox btn_jogar;
+        private System.Windows.Forms.PictureBox btn_creditos;
+
+
     }
 }
 

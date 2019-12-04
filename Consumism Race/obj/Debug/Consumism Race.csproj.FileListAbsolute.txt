@@ -68,3 +68,4 @@ C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consum
 C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.exe
 C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism Race.pdb
 C:\Users\aluno.NAVERECIFE\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Narrativa.resources
+C:\Users\Adriel Estoller\Desktop\Consumism-Race\Consumism Race\obj\Debug\Consumism_Race.Narrativa.resources

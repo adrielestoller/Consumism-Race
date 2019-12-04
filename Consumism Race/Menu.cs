@@ -17,6 +17,11 @@ namespace Consumism_Race
             InitializeComponent();
         }
 
+        private void Menu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
         private void btn_jogar_Click(object sender, EventArgs e)
         {
             Narrativa narrativa = new Narrativa();
@@ -31,11 +36,6 @@ namespace Consumism_Race
 
             creditos.Show();
             this.Hide();
-        }
-
-        private void Menu_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Environment.Exit(1);
         }
     }
 }
